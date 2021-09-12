@@ -4,3 +4,5 @@ dnspython
 asyncio
 python-dotenv
 selenium
+google-cloud-storage
+google-cloud-vision
