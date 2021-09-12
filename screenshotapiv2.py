@@ -24,7 +24,7 @@ import string
 
 app = Flask(__name__)
 
-driver = webdriver.Chrome(executable_path="Drivers/chromedriver-2")
+driver = webdriver.Chrome(executable_path="Drivers/chromedriver-2.exe")
 
 @app.route('/screenshot')
 async def screenshot():
