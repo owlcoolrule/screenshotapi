@@ -1,4 +1,5 @@
 #ScreenShotted
+
 A free API for taking screenshots. If you don't want to self-host, use our 100% free API here - https://owlcoolruleroblox.gitbook.io/screeenshotted/
 
 Here's how to setup and self-host:
