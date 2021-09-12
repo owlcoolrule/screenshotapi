@@ -1,0 +1,6 @@
+Flask
+gunicorn
+dnspython
+asyncio
+python-dotenv
+selenium
