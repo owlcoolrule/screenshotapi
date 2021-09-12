@@ -51,7 +51,7 @@ async def screenshot():
     blob.upload_from_filename(fileName)
     os.remove(fileName)
     link = urlTemplate.replace("{filename}",fileName)
-    toReturn = {"cloudURL":link}
+    toReturn = {"screenshotUrl":link}
     return toReturn
 
 if __name__ == "__main__":
