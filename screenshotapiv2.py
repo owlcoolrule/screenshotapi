@@ -29,12 +29,12 @@ driver = webdriver.Chrome(executable_path="chromedriver-2")
 @app.route('/screenshot')
 async def screenshot():
     if request.args.get("url") == None:
-        return "No URL specified."
+        return 500, "No URL specified."
     if request.args.get("delay") == None:
         delay = 1
     else:
         delay = int(request.args.get("delay"))
-    driver.get(request.args.url)
+    driver.get(request.args.get("url"))
     await asyncio.sleep(delay)
     idParts = string.ascii_lowercase + string.ascii_uppercase + string.digits
     idParts = str(idParts)
