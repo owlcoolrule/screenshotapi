@@ -6,3 +6,5 @@ python-dotenv
 selenium
 google-cloud-storage
 google-cloud-vision
+grpcio
+grpcio-tools
