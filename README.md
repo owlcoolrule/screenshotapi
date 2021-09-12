@@ -13,6 +13,6 @@ Here's how to setup and self-host:
 
 **4.** Change the value for _CLOUD_URL_TEMPLATE_ to the template for URLs. Replace where you want the filename to be with {filename}. If you're using a public Cloud Storage bucket, set the value to this: `https://storage.googleapis.com/bucketname/{filename}`.
 
-**3.** You're all done!
+**5.** You're all done!
 
 🛑 WAIT! Can you pitch in to help host our API? Sponoring this GitHub is a great way to chip in and support the hosting of this project. Thanks!
